@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+TerminalClose(
+   ${1:int ret_code      // closing code of the client terminal}
+   );${0}
+]]></content>
+	<tabTrigger>terminalclose</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Commands the terminal to complete operation | void</description>
+</snippet>

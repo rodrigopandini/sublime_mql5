@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#include <${1:file}>${0}
+]]></content>
+	<tabTrigger>include</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> #include</description>
+</snippet>

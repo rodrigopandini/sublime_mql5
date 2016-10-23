@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Alert(
+	${1:argument,     // first value
+	...           // other values}
+	);${0}
+]]></content>
+	<tabTrigger>alert</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Displays a message in a separate window</description>
+</snippet>

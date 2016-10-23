@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+int  CryptDecode(
+	${1:ENUM_CRYPT_METHOD   method,        // method}
+	${2:const uchar&        data[],        // source array}
+	${3:const uchar&        key[],         // key}
+	${4:const uchar&        result[]       // destination array}
+	);${0}
+]]></content>
+	<tabTrigger>cryptdecode</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Performs the inverse transformation of the data from array | int</description>
+</snippet>

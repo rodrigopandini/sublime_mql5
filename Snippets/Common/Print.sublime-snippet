@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Print(
+   ${1:argument,     // first value}
+   ${2:...           // next values}
+   );${0}
+]]></content>
+	<tabTrigger>print</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Displays a message in the log | void</description>
+</snippet>

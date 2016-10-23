@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_label${1:N}			"${2:label}"${0}
+]]></content>
+	<tabTrigger>property_indicator_label</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Sets a label for the N-th graphic series displayed in DataWindow | string</description>
+</snippet>

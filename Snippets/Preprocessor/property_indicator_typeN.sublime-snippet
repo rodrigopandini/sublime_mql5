@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_type${1:N}	${2:ENUM_DRAW_TYPE type}${0}
+]]></content>
+	<tabTrigger>property_indicator_type</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Type of plotting in graphic series N | ENUM_DRAW_TYPE</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Comment(
+	${1:argument,     // first value
+	...           // next values}
+	);${0}
+]]></content>
+	<tabTrigger>comment</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Outputs a comment in the left top corner of the chart</description>
+</snippet>

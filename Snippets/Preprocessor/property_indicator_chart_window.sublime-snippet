@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_chart_window${0}
+]]></content>
+	<tabTrigger>property_indicator_chart_window</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Show the indicator in the chart window</description>
+</snippet>

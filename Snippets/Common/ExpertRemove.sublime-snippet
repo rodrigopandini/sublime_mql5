@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ExpertRemove();${0}
+]]></content>
+	<tabTrigger>expertremove</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Stops Expert Advisor and unloads it from the chart | void</description>
+</snippet>

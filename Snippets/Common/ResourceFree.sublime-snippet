@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ResourceFree(
+   ${1:const string  resource_name      // resource name}
+   );${0}
+]]></content>
+	<tabTrigger>resourcefree</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Deletes dynamically created resource, freeing the memory allocated for it | bool</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+PlaySound(
+   ${1:string  filename      // file name}
+   );;${0}
+]]></content>
+	<tabTrigger>playsound</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Plays a sound file | bool</description>
+</snippet>

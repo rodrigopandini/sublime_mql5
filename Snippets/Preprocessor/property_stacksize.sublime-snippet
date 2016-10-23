@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property stacksize		${1:int stack size}${0}
+]]></content>
+	<tabTrigger>property_stacksize</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> MQL5 program stack size | int</description>
+</snippet>

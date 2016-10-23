@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+GetTickCount();${0}
+]]></content>
+	<tabTrigger>gettickcount</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Returns the number of milliseconds that have elapsed since the system was started | uint</description>
+</snippet>

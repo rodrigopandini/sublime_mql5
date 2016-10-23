@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_style${1:N}	${2:ENUM_LINE_STYLE style}${0}
+]]></content>
+	<tabTrigger>property_indicator_style</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Line style in graphic series N | ENUM_LINE_STYLE</description>
+</snippet>

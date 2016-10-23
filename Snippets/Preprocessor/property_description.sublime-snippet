@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property description	"${1:string Brief text description}"${0}
+]]></content>
+	<tabTrigger>property_description</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Brief text description of the program | string</description>
+</snippet>

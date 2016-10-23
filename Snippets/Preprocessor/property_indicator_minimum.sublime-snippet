@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_minimum				${1:double minimum}${0}
+]]></content>
+	<tabTrigger>property_indicator_minimum</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> The bottom scaling limit for a separate indicator window | double</description>
+</snippet>

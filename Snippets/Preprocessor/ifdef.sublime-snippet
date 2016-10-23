@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+#ifdef ${1:identifier}
+	${2:// the code located here is compiled if the identifier
+	// has already been defined for the preprocessor in #define directive.}
+#endif${0}
+]]></content>
+	<tabTrigger>ifdef</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> #ifdef ... #endif</description>
+</snippet>

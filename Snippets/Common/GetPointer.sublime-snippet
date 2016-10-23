@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+GetPointer(
+	${1:any_class anyobject      // object of any class}
+	);${0}
+]]></content>
+	<tabTrigger>getpointer</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Returns the object pointer | void</description>
+</snippet>

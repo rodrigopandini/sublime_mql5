@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MessageBox(
+   ${1:string  text,             // message text}
+   ${2:string  caption=NULL,     // box header}
+   ${3:int     flags=0           // defines set of buttons in the box}
+   );${0}
+]]></content>
+	<tabTrigger>messagebox</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Creates, displays a message box and manages it | int</description>
+</snippet>

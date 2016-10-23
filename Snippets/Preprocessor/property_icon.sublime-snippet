@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property icon			"${1:string Path to the an ICO file}"${0}
+]]></content>
+	<tabTrigger>property_icon</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Path to the an ICO file | string</description>
+</snippet>

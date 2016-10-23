@@ -1,0 +1,5 @@
+{
+"cmd": ["C:\\Users\\User\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\makeMQL5.bat", "$file_path", "$file_base_name", "$file_extension"],
+"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+"selector": "source.mq5"
+}

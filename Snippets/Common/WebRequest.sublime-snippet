@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+WebRequest(
+   ${1:const string      method,           // HTTP method}
+   ${2:const string      url,              // URL}
+   ${3:const string      cookie,           // cookie}
+   ${4:const string      referer,          // referer}
+   ${5:int               timeout,          // timeout}
+   ${6:const char        &data[],          // the array of the HTTP message body}
+   ${7:int               data_size,        // data[] array size in bytes}
+   ${8:char              &result[],        // an array containing server response dat}
+   ${9:string            &result_headers   // headers of server response}
+   );${0}
+]]></content>
+	<tabTrigger>webrequest</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Sends HTTP request | int</description>
+</snippet>

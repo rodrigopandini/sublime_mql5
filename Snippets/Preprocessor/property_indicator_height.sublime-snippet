@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_height				${1:int pixels}${0}
+]]></content>
+	<tabTrigger>property_indicator_height</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Fixed height of the indicator subwindow in pixels | int</description>
+</snippet>

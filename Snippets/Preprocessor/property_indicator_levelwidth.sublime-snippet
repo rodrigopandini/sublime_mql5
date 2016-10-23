@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_levelwidth	${1:int thickness}${0}
+]]></content>
+	<tabTrigger>property_iindicator_levelwidth</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Thickness of horizontal levels of the indicator | int</description>
+</snippet>

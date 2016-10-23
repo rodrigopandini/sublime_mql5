@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_levelstyle	${1:int style}${0}
+]]></content>
+	<tabTrigger>property_indicator_levelstyle</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Style of horizontal levels of the indicator | int</description>
+</snippet>

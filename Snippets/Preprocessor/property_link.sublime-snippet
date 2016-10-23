@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property link				 "${1:string Link to the company website}"${0}
+]]></content>
+	<tabTrigger>property_link</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Link to the company website | string</description>
+</snippet>

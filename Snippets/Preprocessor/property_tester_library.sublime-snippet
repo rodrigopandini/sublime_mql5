@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property tester_library	"${1:library.ext}"${0}
+]]></content>
+	<tabTrigger>property_tester_library</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Library name with the extension | string</description>
+</snippet>

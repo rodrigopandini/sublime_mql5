@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property library${0}
+]]></content>
+	<tabTrigger>property_library</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Decalre as a MQL5 library</description>
+</snippet>

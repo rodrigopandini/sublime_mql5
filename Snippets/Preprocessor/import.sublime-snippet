@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+#import "${1:file_name}"
+	${2:func1 define;
+	:func2 define;
+	:...
+	:funcN define;}
+#import${0}
+]]></content>
+	<tabTrigger>import</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> #import</description>
+</snippet>

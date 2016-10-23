@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+DebugBreak();${0}
+]]></content>
+	<tabTrigger>debugbreak</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Program breakpoint in debugging | void</description>
+</snippet>

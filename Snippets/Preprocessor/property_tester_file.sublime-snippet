@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property tester_file		"${1:file.ext}"${0}
+]]></content>
+	<tabTrigger>property_tester_file</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> File name for a tester with the indication of extension | string</description>
+</snippet>

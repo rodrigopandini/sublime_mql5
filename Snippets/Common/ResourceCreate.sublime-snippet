@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ResourceCreate(
+   ${1:const string      resource_name,       // Resource name}
+   ${2:const string      path                 // A relative path to the file}
+   );${0}
+]]></content>
+	<tabTrigger>resourcecreate</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Creates an image resource based on a data set | bool</description>
+</snippet>

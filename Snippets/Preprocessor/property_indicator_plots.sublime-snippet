@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_plots				${1:int plots}${0}
+]]></content>
+	<tabTrigger>property_indicator_plots</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Number of graphic series in the indicator | int</description>
+</snippet>

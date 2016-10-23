@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property script_show_confirm${0}
+]]></content>
+	<tabTrigger>property_script_show_confirm</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Display a confirmation window before running the script</description>
+</snippet>

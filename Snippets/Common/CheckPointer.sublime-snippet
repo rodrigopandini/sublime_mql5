@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+CheckPointer(
+	${1:object* anyobject      // object pointer}
+	);${0}
+]]></content>
+	<tabTrigger>checkpointer</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Returns the type of the object pointer | ENUM_POINTER_TYPE</description>
+</snippet>

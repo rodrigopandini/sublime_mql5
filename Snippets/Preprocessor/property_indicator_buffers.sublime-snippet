@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property indicator_buffers				${1:buffers}${0}
+]]></content>
+	<tabTrigger>property_iindicator_buffers</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Number of buffers for indicator calculation | int</description>
+</snippet>

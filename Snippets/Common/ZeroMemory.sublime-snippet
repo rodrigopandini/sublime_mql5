@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ZeroMemory(
+   ${1:void & variable      // reset variable}
+   );${0}
+]]></content>
+	<tabTrigger>zeromemory</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Resets a variable passed to it by reference. The variable can be of any type, except for classes and structures that have constructors | void</description>
+</snippet>

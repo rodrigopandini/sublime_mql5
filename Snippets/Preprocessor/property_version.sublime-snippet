@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property version		"${1:string Version number}"${0}
+]]></content>
+	<tabTrigger>property_version</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Program version, maximum 31 characters | string</description>
+</snippet>

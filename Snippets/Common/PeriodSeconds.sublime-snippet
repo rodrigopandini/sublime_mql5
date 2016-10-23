@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+PeriodSeconds(
+   ${1:ENUM_TIMEFRAMES  period=PERIOD_CURRENT      // chart period}
+   );${0}
+]]></content>
+	<tabTrigger>periodseconds</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Returns the number of seconds in the period | int</description>
+</snippet>

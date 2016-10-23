@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Sleep(
+   ${1:int  milliseconds      // interval}
+   );${0}
+]]></content>
+	<tabTrigger>sleep</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Suspends execution of the current EA or script within a specified interval | void</description>
+</snippet>

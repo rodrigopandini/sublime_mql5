@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+TesterStatistics(
+   ${1:ENUM_STATISTICS statistic_id      // ID}
+   );${0}
+]]></content>
+	<tabTrigger>testerstatistics</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Returns the value of a specified statistic based on testing results | double</description>
+</snippet>

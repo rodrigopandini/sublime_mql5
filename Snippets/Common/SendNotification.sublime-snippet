@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+SendNotification(
+   ${1:string  text          // Text of the notification}
+   );${0}
+]]></content>
+	<tabTrigger>sendnotification</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Sends push notifications to mobile terminals | bool</description>
+</snippet>

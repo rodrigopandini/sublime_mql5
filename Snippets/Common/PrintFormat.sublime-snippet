@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+PrintFormat(
+   ${1:string format_string,   // format string}
+   ${2:...                     // values of simple types}
+   );${0}
+]]></content>
+	<tabTrigger>printformat</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Formats and prints the sets of symbols and values in a log file in accordance with a preset format | void</description>
+</snippet>

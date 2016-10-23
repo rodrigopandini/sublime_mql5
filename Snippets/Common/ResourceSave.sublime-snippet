@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ResourceSave(
+   ${1:const string  resource_name      // Resource name}
+   ${2:const string  file_name          // File name}
+   );${0}
+]]></content>
+	<tabTrigger>resourcesave</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Saves a resource into the specified file | bool</description>
+</snippet>

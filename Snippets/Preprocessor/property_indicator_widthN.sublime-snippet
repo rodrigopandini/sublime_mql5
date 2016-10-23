@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#property property_indicator_width${1:N}	${2:int thickness}${0}
+]]></content>
+	<tabTrigger>property_indicator_width</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Line thickness in graphic series N | int</description>
+</snippet>

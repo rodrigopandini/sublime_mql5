@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+ResourceReadImage(
+   ${1:const string      resource_name,       // graphical resource name for reading}
+   ${2:uint&             data[],              // array from receiving data from the resource}
+   ${3:uint&             width,               // for receiving the image width in the resource}
+   ${4:uint&             height,              // for receiving the image height in the resource}
+   );${0}
+]]></content>
+	<tabTrigger>resourcereadimage</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Reads graphical resource created by ResourceCreate() or saved in EX5 file | bool</description>
+</snippet>

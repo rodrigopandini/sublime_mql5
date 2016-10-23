@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+SendMail(
+   ${1:string  subject,       // header}
+   ${2:string  some_text      // email text}
+   );${0}
+]]></content>
+	<tabTrigger>sendmail</tabTrigger>
+	<scope>source.mq5</scope>
+	<description> Sends an email at the address in the settings | bool</description>
+</snippet>
