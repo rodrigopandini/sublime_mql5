@@ -23,10 +23,11 @@ git clone https://github.com/rodrigopandini/sublime_mql5.git "sublime_mql5"
 
 Configuration
 -------------
-Configure the `builMQL5.bat` file to point to the correct location of `metaeditor64.exe` program.
+Configure the `buildMQL5.bat` file to point to the correct location of `metaeditor64.exe` program and include path.
 ```
 ...
-"C:\Program Files\MetaTrader 5\metaeditor64.exe"
+set metaeditor="C:\Program Files\MetaTrader 5\metaeditor64.exe"
+set include_path="C:\Users\User\AppData\Roaming\MetaQuotes\Terminal\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\MQL5"
 ...
 ```
 
@@ -34,7 +35,7 @@ Use
 ---
 **Compile or Syntax Check**  
 <kbd>Ctrl+B</kbd> or <kbd>F7</kbd> to compile and build your project.  
-<kbd>Ctrl+Shift+B</kbd> and select "Syntax Check" to check the syntax in your project without compilation.
+<kbd>Ctrl+Shift+B</kbd> and select "Syntax Check" to check the syntax in your project without compilation.  
 This will run the MetaEditor in command-line mode and display the results in the Sublime Text console.  
 When result data is captured, you can navigate to results in your project’s files with <kbd>F4</kbd> and <kbd>Shift+F4</kbd>. If available, the captured error message will be displayed in the status bar.
 
