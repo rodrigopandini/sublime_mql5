@@ -23,10 +23,11 @@ git clone https://github.com/rodrigopandini/sublime_mql5.git "sublime_mql5"
 
 Configuration
 -------------
-Configure the `builMQL5.bat` file to point to the correct location of `metaeditor64.exe` program.
+Configure the `builMQL5.bat` file to point to the correct location of `metaeditor64.exe` program and include_path.
 ```
 ...
-"C:\Program Files\MetaTrader 5\metaeditor64.exe"
+set metaeditor="C:\Program Files\MetaTrader 5\metaeditor64.exe"
+set include_path="C:\Users\User\AppData\Roaming\MetaQuotes\Terminal\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\MQL5"
 ...
 ```
 
