@@ -1,6 +1,6 @@
 # sublime_mql5
 Sublime Text package for MQL5.  
-Build, syntax highlight, auto-complete and snippets to accelerate your development.
+Build, check, syntax highlight, auto-complete and snippets to accelerate your development.
 
 ![sample](imgs/sample.gif)
 
@@ -23,13 +23,7 @@ git clone https://github.com/rodrigopandini/sublime_mql5.git "sublime_mql5"
 
 Configuration
 -------------
-Configure the `MQL5.sublime-build` build file to point to the correct location of `makeMQL5.bat` make file.
-```
-...
-"cmd": ["C:\\Users\\User\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\makeMQL5.bat"
-...
-```
-Configure the `makeMQL5.bat` file to point to the correct location of `metaeditor64.exe` program.
+Configure the `builMQL5.bat` file to point to the correct location of `metaeditor64.exe` program.
 ```
 ...
 "C:\Program Files\MetaTrader 5\metaeditor64.exe"
@@ -38,12 +32,14 @@ Configure the `makeMQL5.bat` file to point to the correct location of `metaedito
 
 Use
 ---
-**Compile**  
-<kbd>Ctrl+B</kbd> to compile and build your project.  
+**Compile or Syntax Check**  
+<kbd>Ctrl+B</kbd> or <kbd>F7</kbd> to compile and build your project.  
+<kbd>Ctrl+Shift+B</kbd> and select "Syntax Check" to check the syntax in your project without compilation.
 This will run the MetaEditor in command-line mode and display the results in the Sublime Text console.  
+When result data is captured, you can navigate to results in your project’s files with <kbd>F4</kbd> and <kbd>Shift+F4</kbd>. If available, the captured error message will be displayed in the status bar.
 
 **Syntax Highlight**  
-Sublime Text will highlight your `.mq5` and `.mqh` file in a convenient way. Since MQL5 and C/C++ are "sisters" languages, the highlight is very similar to C/C++.
+Sublime Text will highlight your `.mq5` and `.mqh` files in a convenient way. Since MQL5 and C/C++ are "sisters" languages, the highlight is very similar to C/C++.
 
 **Auto-Complete and Snippets**  
 Start typing your code and Sublime Text will display the auto-complete options to accelerate your production. There is a bunch of common and prepocessor snippets, but you can create your own.
